@@ -1,0 +1,22 @@
+{
+  "name": "papa-main",
+  "version": "1.0.0",
+  "description": "This is for the web application project for physically disabled ",
+  "main": "home.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/saiyashwant07/PAPA-MAIN.git"
+  },
+  "author": "yashwant sai",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/saiyashwant07/PAPA-MAIN/issues"
+  },
+  "homepage": "https://github.com/saiyashwant07/PAPA-MAIN#readme",
+  "devDependencies": {
+    "lite-server": "^2.6.1"
+  }
+}

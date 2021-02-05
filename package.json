@@ -20,5 +20,10 @@
   "homepage": "https://github.com/saiyashwant07/PAPA-MAIN#readme",
   "devDependencies": {
     "lite-server": "^2.6.1"
+  },
+  "dependencies": {
+    "bootstrap": "^4.0.0",
+    "jquery": "^3.3.1",
+    "popper.js": "^1.12.9"
   }
 }

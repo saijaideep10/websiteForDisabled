@@ -1,0 +1,113 @@
+.row-header{
+    margin:0px auto;
+    padding:0px;
+}
+
+.row-content {
+    margin:0px auto;
+    padding: 50px 0px 50px 0px;
+    border-bottom: 1px ridge;
+    min-height:400px;
+}
+
+.footer{
+    background-color: #D1C4E9;
+    margin: 28% auto;
+    padding: 40px 0px 20px 0px;
+    margin-bottom: 0%;
+}
+
+.jumbotron {
+    padding:70px 30px 70px 30px;
+    margin:0px auto;
+    background: #9575CD ;
+    color:floralwhite;
+    margin-top:-10%;
+}
+
+address{
+    font-size:80%;
+    margin:0px;
+    color:#0f0f0f;
+}
+
+body{
+    padding:50px 0px 0px 0px;
+    z-index:0;
+    background-color: mediumaquamarine;
+
+    padding-top: 13%;
+}
+
+.navbar{
+    padding:0%;
+    margin:0%;
+    margin-top: 0px;
+    border: 0%;
+}
+
+.navbar-brand {
+    font-size: 250%;
+}
+
+.navbar-inverse {
+     background-color: khaki;
+}
+
+.navbar-nav {
+    vertical-align: auto;
+    margin-left: 100%;
+}
+
+.nav-item {
+    float: right;
+    margin-right: 2%;
+    margin-top: 0px;
+}
+
+.tab-content {
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    padding: 10px;
+}
+
+.mycarousel{
+    background: #512da8;
+    margin-top: 10%;
+    margin-bottom: 0%;
+}
+
+.carousel-item{
+    height: 300px;
+}
+
+.carousel-item img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-height: 300px;
+}
+
+.carousel-caption{
+    text-align: center;
+}
+
+.carousel-caption h2 {
+    margin-left: 20%;
+}
+
+.carousel-caption p {
+    padding-bottom: 100px;
+    margin-left: 25%;
+}
+
+.btn{
+    margin-left: 45%;
+    margin-top: 3%;
+}
+
+.btn-outline-danger{
+    font-size: 200%;
+}
+

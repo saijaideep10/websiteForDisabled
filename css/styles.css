@@ -1,5 +1,5 @@
 .row-header{
-    margin:0px auto;
+    margin: 25% auto;
     padding:0px;
 }
 
@@ -11,19 +11,28 @@
 }
 
 .footer{
-    background-color: #D1C4E9;
-    margin: 28% auto;
+    margin: 20%;
     padding: 40px 0px 20px 0px;
     margin-bottom: 0%;
+    background: transparent;
+    color: white;
+    margin-left: 5%;
+    color: white;
 }
 
 .jumbotron {
-    padding:70px 30px 70px 30px;
+    padding:70px 0px 70px 0px;
     margin:0px auto;
-    background: #9575CD ;
-    color:floralwhite;
-    margin-top:-10%;
+    color: thistle;
+    margin-top:3%;
+    margin-left: 35%;
+    padding-bottom: 6%;
+    background: transparent;
+    text-align: center;
+    font-family: "Lucida Console", "Courier New", monospace;
 }
+
+
 
 address{
     font-size:80%;
@@ -32,22 +41,66 @@ address{
 }
 
 body{
-    padding:50px 0px 0px 0px;
-    z-index:0;
-    background-color: mediumaquamarine;
-
-    padding-top: 13%;
+    background-image: url('../img/800252.png');
+  min-height: 100%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-size: 24px !important;
+  font-family: "Trade Winds";
+  background-attachment: fixed;
+  margin-bottom: 1%;
+  color: white;
+  margin:0;
+  padding: 0;
+  display: grid;
+  height: 100%;
 }
+.mousey {
+    width: 20px;
+    height: 35px;
+    border: 2px solid #fff;
+    border-radius: 25px;
+    opacity: 0.75;
+    box-sizing: content-box;
+    display: flex;
+    justify-content: center;
+    top : 90%;
+    left : 50%;
+    position : absolute;
+  }
+  .mousey .scroller {
+    width: 3px;
+    height: 10px;
+    border-radius: 25%;
+    background-color: #fff;
+    animation-name: scroll;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+  }
+
+  @keyframes scroll {
+    from {
+      opacity : 1;
+      transform: translateY(4px);
+    }
+    to {
+      opacity : 0.5;
+      transform: translateY(20px);
+    }
+    }
 
 .navbar{
     padding:0%;
     margin:0%;
     margin-top: 0px;
     border: 0%;
-}
+    }
 
 .navbar-brand {
-    font-size: 250%;
+    font-size: 200%;
+    margin-left: -25%;
 }
 
 .navbar-inverse {
@@ -73,8 +126,9 @@ body{
 }
 
 .mycarousel{
-    background: #512da8;
-    margin-top: 10%;
+    background: black;
+    opacity: 0.6;
+    margin-top: 8%;
     margin-bottom: 0%;
 }
 
@@ -91,6 +145,8 @@ body{
 
 .carousel-caption{
     text-align: center;
+    margin-top: -5%;
+    margin-bottom: -8%;
 }
 
 .carousel-caption h2 {
@@ -103,11 +159,14 @@ body{
 }
 
 .btn{
-    margin-left: 45%;
-    margin-top: 3%;
+    margin-left: 42%;
+    margin-right: 43%;
+    margin-top: 20%;
+    border: 2px solid red;
+    border-radius: 20%;
 }
 
 .btn-outline-danger{
-    font-size: 200%;
+    
 }
 

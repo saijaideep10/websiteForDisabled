@@ -162,11 +162,9 @@ body{
     margin-left: 42%;
     margin-right: 43%;
     margin-top: 20%;
-    border: 2px solid red;
+    border: 2px solid white;
     border-radius: 20%;
 }
 
-.btn-outline-danger{
-    
-}
+
 
